@@ -51,4 +51,5 @@ for child in mainframe.winfo_children():
 peso_entry.focus()
 root.bind("<Return>", calculate)
 
+#LOOP P/ RENDERIZAÇÃO INTERMITENTE
 root.mainloop()
